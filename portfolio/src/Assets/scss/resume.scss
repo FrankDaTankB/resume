@@ -41,8 +41,7 @@ body{
 }
 
 .bg-img {
-  //background-image: url('../../img/emory-blurred.png');
-  background-color: $black;
+  background-image: url('../../img/emory-blurred.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -58,5 +57,5 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-  color: $white;
+  color: $black;
 }
