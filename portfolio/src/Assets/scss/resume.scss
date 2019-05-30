@@ -1,0 +1,61 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "nav.scss";
+@import "resume-item.scss";
+@import "bootstrap-overrides.scss";
+$red: #cf1d35;
+$black: #000000;
+$white: #ffffff;
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  cursor: pointer;
+}
+
+.bg-primary{
+  background-color: $red!important;
+}
+
+.text-primary{
+  color: $red!important;
+}
+
+a{
+  color: $red;
+}
+
+.social-icons a:hover{
+  background-color: $red;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+  color: $black;
+}
+
+a:not([href]):not([tabindex]){
+  color: $white;
+}
+
+body{
+  color: $white;
+}
+
+.bg-img {
+  background-image: url('../../img/emory-blurred.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.container-fluid .p-0{
+  background-color: $black;
+}
+
+.dev-icons .list-inline-item i:hover{
+  color: $red;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: $black;
+}
