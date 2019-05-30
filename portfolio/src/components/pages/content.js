@@ -42,14 +42,12 @@ class Content extends Component {
           <div className="resume-content">
             <h3 className="mb-0">IT Service Technician Intern</h3>
             <div className="subheading mb-3">Headwaters Group</div>
-            <p>
             <ul>
               <li>Recycling older PCs for future use</li>
               <li>Prepping new PCs and other technical hardware for client use</li>
               <li>Assisting engineers on technical tickets from customers</li>
               <li>Meeting with clients to assess needs related to their technical systems</li>
             </ul>
-            </p>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">February 2019 - May 2019</span>
@@ -60,13 +58,11 @@ class Content extends Component {
           <div className="resume-content">
             <h3 className="mb-0">Service Desk Specialist</h3>
             <div className="subheading mb-3">The Home Depot</div>
-            <p>
             <ul>
               <li>Assisting customers with any problems pertaining to orders, returns, or store issues</li>
               <li>Calling customers to provide information on orders</li>
               <li>Creating and maintaining online/special orders</li>
             </ul>
-            </p>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">February 2018 - January 2019</span>
@@ -77,13 +73,11 @@ class Content extends Component {
           <div className="resume-content">
             <h3 className="mb-0">Busser</h3>
             <div className="subheading mb-3">Olive Garden</div>
-            <p>
             <ul>
               <li>Cleaning tables after customers have left</li>
               <li>Maintaining a clean and fully stocked floor</li>
               <li>Serving customers if requested</li>
-            </ul>    
-            </p>
+            </ul>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">September 2017 - January 2018</span>
@@ -116,8 +110,8 @@ class Content extends Component {
           <div className="resume-content">
             <h3 className="mb-0">Kennesaw State University</h3>
             <div className="subheading mb-3">Bachelor of Science in Software Engineering</div>
-            <div>Software Engineering</div>
-            <div>Minor in Applied Statistics and Data Analytics</div>
+            <div className="misc-text">Software Engineering</div>
+            <div className="misc-text">Minor in Applied Statistics and Data Analytics</div>
           </div>
           <div className="resume-date text-md-right">
             <span className="text-primary">August 2013 - July 2019</span>

@@ -7,6 +7,7 @@
 $red: #cf1d35;
 $black: #000000;
 $white: #ffffff;
+$grey: #adb5bd;
 
 #sideNav .navbar-nav .nav-item .nav-link {
   cursor: pointer;
@@ -22,6 +23,9 @@ $white: #ffffff;
 
 a{
   color: $red;
+  &:hover{
+    color: $white;
+  }
 }
 
 .social-icons a:hover{
@@ -33,20 +37,47 @@ a{
 }
 
 a:not([href]):not([tabindex]){
+  color: $black;
+}
+
+.subheading{
   color: $white;
+  font-weight: bold;
+}
+
+li{
+  font-weight: bold;
+}
+
+.misc-text{
+  font-weight: bold;
+}
+
+.text-primary{
+  font-weight: bold;
+}
+
+p.lead{
+  font-weight: bold;
 }
 
 body{
   color: $white;
-}
-
-.bg-img {
-  background-image: url('../../img/emory-blurred.png');
+  background-color: $black;
+  //background-image: url('../../img/emory-blurred.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
 }
+
+/*.bg-img {
+  background-image: url('../../img/emory-blurred.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}*/
 
 .container-fluid .p-0{
   background-color: $black;
@@ -56,6 +87,10 @@ body{
   color: $red;
 }
 
-h1, h2, h3, h4, h5, h6{
-  color: $black;
+h2{
+  color: $red;
+}
+
+h1, h3, h4, h5, h6{
+  color: $white;
 }
