@@ -10,9 +10,8 @@ class Content extends Component {
   <div className="container-fluid p-0" id="page-top">
     <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div className="w-100">
-        <h1 className="mb-0">Frank
-          <span className="text-primary">Brahmbhatt</span>
-        </h1>
+        <h1 className="mb-0">Frank</h1>
+          <h1 className="text-primary">Brahmbhatt</h1>
         <div className="subheading mb-5">Atlanta Metro Area/Lawrenceville, GA 30044 ·
           <a href="mailto:fbrahmbhatt5595@gmail.com">fbrahmbhatt5595@gmail.com</a>
         </div>
@@ -162,101 +161,102 @@ class Content extends Component {
         <h2 className="mb-5">Skills</h2>
 
         <div className="subheading mb-3">Programming Languages &amp; Tools</div>
+        <div className="subheading mb-3">&#40;Click or Hover on Icons&#41;</div>
         <ul className="list-inline dev-icons">
           <li className="list-inline-item">
             <i className="fab fa-html5" data-tip data-for='html'></i>
-            <ReactTooltip place='right' id='html' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='html' aria-haspopup='true'>
              <p className="rtt">HTML5 </p>
              <p className="rtt">Skill Level: Advanced</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-css3-alt" data-tip data-for='css'></i>
-            <ReactTooltip place='right' id='css' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='css' aria-haspopup='true'>
              <p className="rtt">CSS3</p>
              <p className="rtt">Skill Level: Advanced</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-js-square" data-tip data-for='js'></i>
-            <ReactTooltip place='right' id='js' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='js' aria-haspopup='true'>
              <p className="rtt">JavaScript</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-python"data-tip data-for='py'></i>
-            <ReactTooltip place='right' id='py' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='py' aria-haspopup='true'>
              <p className="rtt">Python</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-bootstrap"data-tip data-for='bts'></i>
-            <ReactTooltip place='right' id='bts' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='bts' aria-haspopup='true'>
              <p className="rtt">Bootstrap</p>
              <p className="rtt">Skill Level: Advanced</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-react"data-tip data-for='react'></i>
-            <ReactTooltip place='right' id='react' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='react' aria-haspopup='true'>
              <p className="rtt">ReactJS</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-node-js"data-tip data-for='node'></i>
-            <ReactTooltip place='right' id='node' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='node' aria-haspopup='true'>
              <p className="rtt">Node.JS</p>
              <p className="rtt">Skill Level: Beginner</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-sass"data-tip data-for='sass'></i>
-            <ReactTooltip place='right' id='sass' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='sass' aria-haspopup='true'>
              <p className="rtt">Sass</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-linux"data-tip data-for='linux'></i>
-            <ReactTooltip place='right' id='linux' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='linux' aria-haspopup='true'>
              <p className="rtt">Linux</p>
              <p className="rtt">Skill Level: Advanced</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-windows"data-tip data-for='windows'></i>
-            <ReactTooltip place='right' id='windows' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='windows' aria-haspopup='true'>
              <p className="rtt">Windows[Office &amp; Command Prompt]</p>
              <p className="rtt">Skill Level: Advanced</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-gulp"data-tip data-for='gulp'></i>
-            <ReactTooltip place='right' id='gulp' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='gulp' aria-haspopup='true'>
              <p className="rtt">GulpJS</p>
              <p className="rtt">Skill Level: Beginner</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-angular"data-tip data-for='ng'></i>
-            <ReactTooltip place='right' id='ng' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='ng' aria-haspopup='true'>
              <p className="rtt">AngularJS</p>
              <p className="rtt">Skill Level: Beginner</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fab fa-java"data-tip data-for='java'></i>
-            <ReactTooltip place='right' id='java' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='java' aria-haspopup='true'>
              <p className="rtt">Java</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>
           </li>
           <li className="list-inline-item">
             <i className="fas fa-code" data-tip data-for='c'></i>
-            <ReactTooltip place='right' id='c' aria-haspopup='true' role='example'>
+            <ReactTooltip place='right' id='c' aria-haspopup='true'>
              <p className="rtt">C++</p>
              <p className="rtt">Skill Level: Intermediate</p>
             </ReactTooltip>

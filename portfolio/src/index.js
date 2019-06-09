@@ -3,6 +3,7 @@ import './Assets/css/resume.min.css';
 import 'jquery.easing/jquery.easing.min.js';
 import 'jquery/dist/jquery.min.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './Assets/scripts/resume_js/resume.js'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
