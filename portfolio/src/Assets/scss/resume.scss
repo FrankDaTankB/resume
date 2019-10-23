@@ -99,3 +99,12 @@ h1, h3, h4, h5, h6{
   color: $white;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 70px;
+  }
+  h2{
+    font-size: 55px;
+  }
+}

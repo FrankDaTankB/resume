@@ -88,7 +88,19 @@ class Header extends Component {
             <li className="nav-item">
               <Link
               className="nav-link js-scroll-trigger"
-              to="awards"
+              to="projects"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >Projects
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+              className="nav-link js-scroll-trigger"
+              to="certs"
               activeClass="active"
               spy={true}
               smooth={true}
